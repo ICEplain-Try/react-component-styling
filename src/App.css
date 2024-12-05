@@ -39,3 +39,9 @@
 .read-the-docs {
   color: #888;
 }
+
+.button-components-section {
+  display: flex;
+  flex-direction: column; /* ทำให้แต่ละ Button อยู่คนละบรรทัด */
+  gap: 16px; /* ระยะห่างระหว่างปุ่ม */
+}
